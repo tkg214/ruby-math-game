@@ -1,12 +1,13 @@
 Class Game
-* Scores of both players
-* Condition on win/loss
-* Contains turn loop
-* Contains assessment of turn
+* State of game (true or false)
+* Scores of both players (conditional state of players)
+* Contains turn loop (0 or 1 to see what turn)
+* Contains assessment of turn (&& for assessment)
 
 Class Turn
-* Input from players using randomly generated string based on two inputs
-* Score per loop
+* Randomly generated question (numbers initialized on each turn)
+* Numbers used to generate question as method
 
 Class Player
 * Lives
+* Method to decrement life 
