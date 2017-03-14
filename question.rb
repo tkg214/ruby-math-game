@@ -1,4 +1,4 @@
-class Turn
+class Question
   attr_reader :answer
 
   def initialize
